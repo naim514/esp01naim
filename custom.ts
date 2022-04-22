@@ -15,7 +15,7 @@ namespace ESP8266ThingSpeak_naim {
     }
 
     // wait for certain response from ESP8266
-    function waitResponse(): boolean {
+     function waitResponse(): boolean {
         let serial_str: string = ""
         let result: boolean = false
         let time: number = input.runningTime()
